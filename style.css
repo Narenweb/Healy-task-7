@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+/* -----------Utility Section----------- */
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-lg {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.text-light {
+    color: #ffffff
+}
+
+.font-normal {
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.btn {
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.border-none {
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+}
+
+.object-contain {
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* -----------Header Section----------- */
+header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+header img {
+    margin-left: 25px;
+}
+
+header>.container {
+    padding-top: 42px;
+}
+
+header .title>a {
+    padding-left: 25px;
+    font-family: 'Signika', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    top: 35%;
+}
+
+header ul li>a {
+    margin-right: 57px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+li>button {
+    padding: 11px 31px 10px 32px;
+    border-radius: 1px;
+    border: solid 2.5px #ffffff;
+    background-color: transparent;
+    font-weight: 800;
+    position: relative;
+    bottom: 20%;
+}
+
+li>button:hover {
+    background-color: #000;
+    border: 2.5px solid #000;
+}
+
+header a {
+    text-decoration: none;
+}
+
+/* -----------Hero Section----------- */
+.hero {
+    background-image: url('https://i.ibb.co/YdDPttD/shutterstock-318359918.png');
+    height: 723px;
+}
+
+.hero form>input:nth-child(1) {
+    background-image: url('https://i.ibb.co/DVY5S3q/placeholder.png');
+    padding: 15px 13px 23px 12px;
+
+}
+
+.hero__wrapper button {
+    border: none;
+    padding: 6px 20px;
+    border-radius: 4px;
+    background-color: #0093ff;
+}
+
+.hero form>input::placeholder {
+    color: #909090;
+}
+
+.hero form>input:placeholder-shown {
+    font-size: 15px;
+    padding-left: 80px;
+}
+
+.hero form>input:nth-child(2) {
+    background-image: url('https://i.ibb.co/hs4NSvm/hospital.png');
+    padding: 15px 114px 23px 15px;
+
+}
+
+.hero form>input:nth-child(2):placeholder-shown {
+    padding-left: 80px;
+}
+
+.hero form>input:nth-child(3) {
+    background-image: url("https://i.ibb.co/n3F0NDM/folder-1.png");
+    padding: 15px 72px 23px 15px;
+}
+
+.hero form>input:nth-child(3):placeholder-shown {
+    padding-left: 80px;
+}
+
+button>img {
+    width: 40px;
+    height: 40px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.box {
+    padding: 22px 39px;
+    border-radius: 5px;
+    box-shadow: 0 11px 22px 0 rgba(0, 0, 0, 0.34);
+    background-color: #ffffff;
+    transition: transform 500ms ease-in-out;
+}
+
+.box>img {
+    width: 120px;
+    height: 120px;
+}
+
+.box>p {
+    font-size: 18px;
+    color: #474747;
+}
+
+/* -----------Working Section----------- */
+.working-section {
+    margin-top: 50px;
+}
+
+.working-section>h2 {
+    line-height: 1.1;
+    letter-spacing: 0.25px;
+    color: #474747;
+}
+
+.working-cards>.card {
+    margin-top: 50px;
+}
+
+.card-title {
+    margin-top: 35px;
+    font-size: 30px;
+    letter-spacing: 0.19px;
+    color: #474747;
+}
+
+.card-text {
+    margin-top: 35px;
+    opacity: 0.7;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    color: #474747;
+}
+
+/* -----------Health Section----------- */
+.health {
+    margin-top: 74px;
+    width: 100%;
+    padding: 1px 0 144px;
+    background-image: linear-gradient(to bottom, #3ff3c3 -40%, rgba(27, 121, 222, 0.3)), url(https://i.ibb.co/BKp67qR/bg-health.jpg);
+}
+
+.health h2 {
+    margin-top: 50px;
+    line-height: 1.1;
+    letter-spacing: 0.25px;
+}
+
+.health-cards>.card {
+    width: 320px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0 15px 22px 0 rgba(0, 0, 0, 0.41);
+    background-color: #ffffff;
+    position: relative;
+    transition: transform 500ms ease-out;
+}
+
+.health-cards>.card:hover,
+.box:hover {
+    transform: scale(1.03, 1.03);
+}
+
+.health-cards>.card img {
+    width: 320px;
+    height: 199px;
+}
+
+.card>h5 {
+    margin-top: 12px;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    color: #474747;
+    padding: 0 20px
+}
+
+.health-cards>.card p {
+    margin-top: 10px;
+    opacity: 0.54;
+    font-size: 13px;
+    letter-spacing: 0.26px;
+    color: #474747;
+    padding: 0 20px
+}
+
+.health-cards>.card span {
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    margin-top: 10px;
+    padding: 0 20px
+}
+
+.text-left {
+    position: absolute;
+    left: 0;
+    color: #474747;
+}
+
+.text-right {
+    position: absolute;
+    right: 0;
+    color: #13ba8e;
+    cursor: pointer;
+}
+
+/* -----------Newsletter Section----------- */
+.newsletter {
+    background-image: linear-gradient(to bottom, #3ec9ec -40%, rgba(5, 80, 71, 0.3));
+}
+
+.newsletter-wrapper>img {
+    margin-top: 50px;
+}
+
+.download {
+    font-size: 0;
+}
+
+.download>h3 {
+    margin-top: 200px;
+}
+
+.download>img {
+    margin: 20px 21px 0 0;
+}
+
+.download>img:nth-child(3) {
+    margin: 0;
+}
+
+.download input {
+    margin-top: 21px;
+    width: 302px;
+    padding: 14px 55px 16px 20px;
+    opacity: 0.6;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0 0 8px 0 grey;
+    background-color: transparent;
+    border: solid 1px #ffffff;
+    font-size: 16px;
+    line-height: 1.25;
+    outline: none;
+}
+
+.download input::placeholder {
+    color: #ffffff;
+}
+
+.download button {
+    padding: 19px 30px 19px 36px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    color: #0bb185;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.download button:hover,
+.hero__wrapper button:hover {
+    background-color: #000;
+    color: #ffffff;
+}
+
+/* -----------Footer Section----------- */
+footer {
+    padding: 50px 40px;
+    background-color: #00556b;
+
+}
+
+footer .container h2 {
+    font-size: 25px;
+    line-height: 0.56;
+    cursor: pointer;
+}
+
+footer .container p {
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 1.82;
+    color: #00f1b7;
+}
+
+.follow>img {
+    width: 40px;
+    height: 40px;
+    margin: 37px 10px 0 0;
+    cursor: pointer;
+}
