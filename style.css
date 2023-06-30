@@ -85,8 +85,8 @@ header>.container {
     padding-top: 42px;
 }
 
-header .title>a {
-    padding-left: 25px;
+header .logo{
+    margin-left: 25px;
     font-family: 'Signika', sans-serif;
     font-size: 34px;
     font-weight: 600;
@@ -154,7 +154,7 @@ header a {
     padding-left: 80px;
 }
 
-.hero form>input:nth-child(2) {
+.input-bar{
     background-image: url('https://i.ibb.co/hs4NSvm/hospital.png');
     padding: 15px 114px 23px 15px;
 
@@ -164,7 +164,7 @@ header a {
     padding-left: 80px;
 }
 
-.hero form>input:nth-child(3) {
+.search-bar {
     background-image: url("https://i.ibb.co/n3F0NDM/folder-1.png");
     padding: 15px 72px 23px 15px;
 }
@@ -191,15 +191,14 @@ button>img {
     background-color: #ffffff;
     transition: transform 500ms ease-in-out;
 }
-
-.box>img {
+.box>img{
     width: 120px;
     height: 120px;
 }
-
-.box>p {
+.box-text{
     font-size: 18px;
     color: #474747;
+    width: 132px;
 }
 
 /* -----------Working Section----------- */
@@ -245,9 +244,15 @@ button>img {
     line-height: 1.1;
     letter-spacing: 0.25px;
 }
+.health-cards>img{
+    width: 70px;
+  height: 70px;
+  margin-top: 180px;
+  cursor: pointer;
+}
 
 .health-cards>.card {
-    width: 320px;
+    width: 290px;
     padding-bottom: 40px;
     margin-top: 50px;
     border-radius: 5px;
@@ -263,7 +268,7 @@ button>img {
 }
 
 .health-cards>.card img {
-    width: 320px;
+    width: 290px;
     height: 199px;
 }
 
