@@ -125,7 +125,9 @@ li>button:hover {
 header a {
     text-decoration: none;
 }
-
+.hamburger{
+    display: none;
+}
 /* -----------Hero Section----------- */
 .hero {
     background-image: url('https://i.ibb.co/YdDPttD/shutterstock-318359918.png');

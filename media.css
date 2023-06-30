@@ -13,9 +13,14 @@
     }
 
     header ul li {
-        display: none;
+        display: none;  
     }
-
+    .hamburger{
+        position: relative;
+        left:240px;
+        bottom: 10px;
+        display: inline-block!important;
+    }
     .hero {
         background-position: center;
         height:610px!important;
@@ -118,23 +123,23 @@
     }
     .health-cards>img:first-child{
         position: relative;
-        right:165px;
+        right:160px;
         top:200px;
     }
     .health-cards>img:last-child{
         position: relative;
-        left:165px;
+        left:160px;
         bottom:250px;
     }
     .health-cards>.card{
         margin-top: 30px!important;
-        width: 280px!important;
+        width: 260px!important;
     }
     .health-cards>.card:nth-child(2),.health-cards>.card:nth-child(3){
         display: none;
     }
     .health-cards>.card img {
-        width: 280px!important;
+        width: 260px!important;
         height: 200px!important;
     }
       /* -----------newsletter Section----------- */
