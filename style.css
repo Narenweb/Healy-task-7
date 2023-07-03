@@ -45,6 +45,7 @@
 .container {
     max-width: 1100px;
     margin: 0 auto;
+    padding:0 20px;
 }
 
 .btn {
@@ -77,9 +78,6 @@ header {
     width: 100%;
 }
 
-header img {
-    margin-left: 25px;
-}
 
 header>.container {
     padding-top: 42px;
@@ -134,22 +132,23 @@ header a {
     height: 723px;
 }
 
-.hero form>input:nth-child(1) {
+.area-text{
     background-image: url('https://i.ibb.co/DVY5S3q/placeholder.png');
-    padding: 23px 13px 23px 80px;
+    padding: 20px 13px 23px 80px;
+    width: 230px;
 }
 
 
 .hero__wrapper button {
     border: none;
-    padding: 15px 35px;
+    padding: 14px 35px;
     border-radius: 4px;
     background-color: #0093ff;
 }
 
 .hero form>input::placeholder {
     color: #909090;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .hero form>input:placeholder-shown,[type='text'] {
@@ -159,13 +158,14 @@ header a {
 .input-bar{
     background-image: url('https://i.ibb.co/hs4NSvm/hospital.png');
     width:400px;
-    padding: 23px 70px 23px 80px;
+    padding: 20px 70px 23px 80px;
+    
 }
 
 .search-bar {
     background-image: url("https://i.ibb.co/n3F0NDM/folder-1.png");
     width:370px;
-    padding: 23px 72px 23px 80px;
+    padding: 20px 72px 23px 80px;
 }
 
 button>img {
@@ -240,16 +240,16 @@ button>img {
     letter-spacing: 0.25px;
 }
 .oval>img{
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
   position: relative;
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
 }
 .oval{
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     padding: 33px 22.9px 32.8px 22px;
     box-shadow: 0 13px 29px 0 rgba(21, 21, 21, 0.44);
     background-color:#ffffff;
