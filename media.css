@@ -19,6 +19,11 @@
         display: inline-block;
         width: 30px;
     }
+    .navbar-fixed .hamburger{
+        background-color: #000;
+       position: relative;
+       bottom: 27px;
+    }
 
     /* -----------Hero Section----------- */
     .hero {
@@ -33,12 +38,12 @@
     .hero form>input {
         margin: 10px 0 0;
         padding: 15px 13px 23px 75px;
-        width: 300px;
+        width: 350px;
     }
 
     .hero__wrapper button {
         margin-top: 10px;
-        width: 150px;
+        width: 350px;
     }
 
     .box {
@@ -116,23 +121,18 @@
         position: relative;
     }
     .oval{
-        width: 20px;
-        height: 20px;
+        padding: 10px 15px 10px 10px;
      
-    }
-    .oval>img{
-        width: 30px;
-        height: 30px;
     }
     .oval:first-child{
         position: relative;
-        right:150px;
+        right:155px;
         top:190px;
     }
     .oval:last-child{
         position: relative;
-        left:150px;
-        top:-256px;
+        left:155px;
+        top:-231px;
     }
 
     .health-cards>.card {
@@ -147,7 +147,7 @@
 
     .health-cards>.card img {
         width: 240px;
-        height: 180px;
+        height: 160px;
     }
 
     /* -----------newsletter Section----------- */

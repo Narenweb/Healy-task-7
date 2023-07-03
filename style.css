@@ -45,7 +45,8 @@
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding:0 20px;
+    padding: 0 20px;
+    width: 100%;
 }
 
 .btn {
@@ -76,14 +77,45 @@ header {
     position: absolute;
     z-index: 1;
     width: 100%;
+    position: fixed;
 }
 
-
+.navbar-fixed {
+    background-color: #ffffff;
+    color: black;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.5s ease,color 0.5s ease-out;
+    box-shadow: 2px 2px 8px #000;
+    line-height: 0;
+  }
+  .navbar-fixed .title>img{
+    background-color:#000;
+    position: relative;
+    bottom: 20px;
+  }
+.navbar-fixed .title .logo,
+.navbar-fixed ul li a{
+    color: #000;
+  }
+  .navbar-fixed ul li a{
+    position: relative;
+    bottom: 7px;
+  }
+  .navbar-fixed ul li button{
+    border: solid 2.5px #000;
+    color: #000;
+    position: relative;
+    bottom: 30px;
+  }
+  .navbar-fixed ul li button:hover{
+    color: #ffffff;
+  }
 header>.container {
     padding-top: 42px;
 }
 
-header .logo{
+header .logo {
     margin-left: 25px;
     font-family: 'Signika', sans-serif;
     font-size: 34px;
@@ -123,16 +155,18 @@ li>button:hover {
 header a {
     text-decoration: none;
 }
-.hamburger{
+
+.hamburger {
     display: none;
 }
+
 /* -----------Hero Section----------- */
 .hero {
     background-image: url('https://i.ibb.co/YdDPttD/shutterstock-318359918.png');
     height: 723px;
 }
 
-.area-text{
+.area-text {
     background-image: url('https://i.ibb.co/DVY5S3q/placeholder.png');
     padding: 20px 13px 23px 80px;
     width: 230px;
@@ -151,20 +185,21 @@ header a {
     font-size: 16px;
 }
 
-.hero form>input:placeholder-shown,[type='text'] {
+.hero form>input:placeholder-shown,
+[type='text'] {
     font-size: 15px;
 }
 
-.input-bar{
+.input-bar {
     background-image: url('https://i.ibb.co/hs4NSvm/hospital.png');
-    width:400px;
+    width: 400px;
     padding: 20px 70px 23px 80px;
-    
+
 }
 
 .search-bar {
     background-image: url("https://i.ibb.co/n3F0NDM/folder-1.png");
-    width:370px;
+    width: 370px;
     padding: 20px 72px 23px 80px;
 }
 
@@ -186,11 +221,13 @@ button>img {
     background-color: #ffffff;
     transition: transform 500ms ease-in-out;
 }
-.box>img{
+
+.box>img {
     width: 120px;
     height: 120px;
 }
-.box-text{
+
+.box-text {
     font-size: 18px;
     color: #474747;
     width: 132px;
@@ -239,33 +276,37 @@ button>img {
     line-height: 1.1;
     letter-spacing: 0.25px;
 }
-.oval>img{
+
+.oval>img {
     width: 30px;
     height: 30px;
-  position: relative;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.oval{
+
+.oval {
     width: 60px;
     height: 60px;
     padding: 33px 22.9px 32.8px 22px;
     box-shadow: 0 13px 29px 0 rgba(21, 21, 21, 0.44);
-    background-color:#ffffff;
+    background-color: #ffffff;
     border-radius: 50%;
     cursor: pointer;
- 
+
 }
-.oval:first-child{
+
+.oval:first-child {
     position: relative;
-    right:50px;
-    top:170px;
+    right: 50px;
+    top: 170px;
 }
-.oval:last-child{
+
+.oval:last-child {
     position: relative;
-    left:50px;
-    top:170px;
+    left: 50px;
+    top: 170px;
 }
 
 .health-cards>.card {
