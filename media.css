@@ -1,5 +1,4 @@
 @media screen and (max-width:480px) {
-
     /* -----------Header Section----------- */
     header img {
         width: 40px;
@@ -17,7 +16,6 @@
     .hamburger {
         position: relative;
         bottom: 10px;
-        right: 10px;
         display: inline-block;
         width: 30px;
     }
@@ -31,9 +29,6 @@
     .hero form {
         padding-top: 100px;
         flex-direction: column;
-    }
-    .hero form>input:nth-child(1) {
-        padding: 15px 13px 23px 75px;
     }
     .hero form>input {
         margin: 10px 0 0;
