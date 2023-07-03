@@ -136,48 +136,41 @@ header a {
 
 .hero form>input:nth-child(1) {
     background-image: url('https://i.ibb.co/DVY5S3q/placeholder.png');
-    padding: 15px 13px 23px 12px;
-
+    padding: 23px 13px 23px 80px;
 }
+
 
 .hero__wrapper button {
     border: none;
-    padding: 6px 20px;
+    padding: 15px 35px;
     border-radius: 4px;
     background-color: #0093ff;
 }
 
 .hero form>input::placeholder {
     color: #909090;
+    font-size: 18px;
 }
 
-.hero form>input:placeholder-shown {
+.hero form>input:placeholder-shown,[type='text'] {
     font-size: 15px;
-    padding-left: 80px;
 }
 
 .input-bar{
     background-image: url('https://i.ibb.co/hs4NSvm/hospital.png');
-    padding: 15px 114px 23px 15px;
-
-}
-
-.hero form>input:nth-child(2):placeholder-shown {
-    padding-left: 80px;
+    width:400px;
+    padding: 23px 70px 23px 80px;
 }
 
 .search-bar {
     background-image: url("https://i.ibb.co/n3F0NDM/folder-1.png");
-    padding: 15px 72px 23px 15px;
-}
-
-.hero form>input:nth-child(3):placeholder-shown {
-    padding-left: 80px;
+    width:370px;
+    padding: 23px 72px 23px 80px;
 }
 
 button>img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .box-container {
@@ -246,11 +239,33 @@ button>img {
     line-height: 1.1;
     letter-spacing: 0.25px;
 }
-.health-cards>img{
-    width: 70px;
-  height: 70px;
-  margin-top: 180px;
-  cursor: pointer;
+.oval>img{
+    width: 45px;
+    height: 45px;
+  position: relative;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.oval{
+    width: 90px;
+    height: 90px;
+    padding: 33px 22.9px 32.8px 22px;
+    box-shadow: 0 13px 29px 0 rgba(21, 21, 21, 0.44);
+    background-color:#ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+ 
+}
+.oval:first-child{
+    position: relative;
+    right:50px;
+    top:170px;
+}
+.oval:last-child{
+    position: relative;
+    left:50px;
+    top:170px;
 }
 
 .health-cards>.card {
@@ -330,11 +345,11 @@ button>img {
 }
 
 .download>img {
-    margin: 20px 21px 0 0;
+    margin: 20px 40px 0 0;
 }
 
 .download>img:nth-child(3) {
-    margin: 0;
+    margin-right: 0;
 }
 
 .download input {
