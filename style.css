@@ -85,32 +85,38 @@ header {
     color: black;
     top: 0;
     width: 100%;
-    transition: background-color 0.5s ease,color 0.5s ease-out;
+    transition: background-color 0.5s ease, color 0.5s ease-out;
     box-shadow: 2px 2px 8px #000;
     line-height: 0;
-  }
-  .navbar-fixed .title>img{
-    background-color:#000;
+}
+
+.navbar-fixed .title>img {
+    background-color: #000;
     position: relative;
     bottom: 20px;
-  }
+}
+
 .navbar-fixed .title .logo,
-.navbar-fixed ul li a{
+.navbar-fixed ul li a {
     color: #000;
-  }
-  .navbar-fixed ul li a{
+}
+
+.navbar-fixed ul li a {
     position: relative;
     bottom: 7px;
-  }
-  .navbar-fixed ul li button{
+}
+
+.navbar-fixed ul li button {
     border: solid 2.5px #000;
     color: #000;
     position: relative;
     bottom: 30px;
-  }
-  .navbar-fixed ul li button:hover{
+}
+
+.navbar-fixed ul li button:hover {
     color: #ffffff;
-  }
+}
+
 header>.container {
     padding-top: 42px;
 }
