@@ -77,7 +77,8 @@ header {
     position: absolute;
     z-index: 1;
     width: 100%;
-    position: fixed;
+    padding-bottom:20px;
+  
 }
 
 .navbar-fixed {
@@ -86,14 +87,12 @@ header {
     top: 0;
     width: 100%;
     transition: background-color 0.5s ease, color 0.5s ease-out;
-    box-shadow: 2px 2px 8px #000;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     line-height: 0;
+    position: fixed;
 }
-
 .navbar-fixed .title>img {
-    background-color: #000;
-    position: relative;
-    bottom: 20px;
+    filter: brightness(0%);
 }
 
 .navbar-fixed .title .logo,
@@ -101,16 +100,9 @@ header {
     color: #000;
 }
 
-.navbar-fixed ul li a {
-    position: relative;
-    bottom: 7px;
-}
-
 .navbar-fixed ul li button {
     border: solid 2.5px #000;
     color: #000;
-    position: relative;
-    bottom: 30px;
 }
 
 .navbar-fixed ul li button:hover {
@@ -118,23 +110,25 @@ header {
 }
 
 header>.container {
-    padding-top: 42px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
 }
-
+header .title{
+    display: flex;
+    align-items: center;
+}
 header .logo {
     margin-left: 25px;
     font-family: 'Signika', sans-serif;
     font-size: 34px;
     font-weight: 600;
-    position: absolute;
-    top: 50%;
 }
 
 header nav ul {
     list-style: none;
     display: flex;
-    position: relative;
-    top: 35%;
+    align-items: center;
 }
 
 header ul li>a {
@@ -149,8 +143,6 @@ li>button {
     border: solid 2.5px #ffffff;
     background-color: transparent;
     font-weight: 800;
-    position: relative;
-    bottom: 20%;
 }
 
 li>button:hover {
@@ -162,7 +154,7 @@ header a {
     text-decoration: none;
 }
 
-.hamburger {
+.hamburger,.close-icon {
     display: none;
 }
 
